@@ -408,6 +408,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/asus" name="Velocity-Project/vendor_asus" remote="github" revision="4.4.2" />
   <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="psx_v3" />
   <project path="vendor/lge" name="Personal-build/vendor_lge" remote="github" revision="master" />
   <project path="vendor/velocity" name="Velocity-Project/vendor_velocity" remote="github" revision="4.4.2" />
