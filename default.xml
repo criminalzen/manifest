@@ -35,12 +35,15 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="Velocity-Project/device_flo" groups="device,flo" remote="github" revision="new" />
   <project path="device/asus/flo-kernel" name="OpenMaster/device_flo-kernel" groups="device,flo" clone-depth="1" remote="github" revision="master" />
+  <project path="kernel/asus/flo" name="Velocity-Project/flo_kernel" remote="github" revision="4.4.2" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/lge/hammerhead" name="Velocity-Project/device_hammerhead" groups="device,hammerhead" remote="github" revision="new" />
   <project path="device/lge/hammerhead-kernel" name="OpenMaster/device_hammerhead-kernel" groups="device,hammerhead" clone-depth="1" remote="github" revision="master" />
+  <project path="kernel/lge/hammerhead" name="Velocity-Project/hammerhead_kernel" remote="github" revision="4.4.2" />
   <project path="device/lge/mako" name="Velocity-Project/device_mako" groups="device,mako" remote="github" revision="new" />
   <project path="device/lge/mako-kernel" name="OpenMaster/device_mako-kernel" groups="device,mako" clone-depth="1" remote="github" revision="master" />
+  <project path="kernel/lge/mako" name="Velocity-Project/mako_kernel" remote="github" revision="4.4.2" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -244,7 +247,7 @@
   <project path="frameworks/ex" name="Velocity-Project/frameworks_ex" remote="github" revision="new" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <project path="frameworks/native" name="Velocity-Project/frameworks_native" groups="pdk" remote="github" revision="new" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
